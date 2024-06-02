@@ -1,0 +1,20 @@
+.be-footer {
+  width: 100%;
+  background: #141519;
+}
+
+.be-footer .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 77px;
+}
+
+.be-footer .copyright {
+  text-align: right;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 16px;
+  margin-right: 66px;
+  padding-bottom: 40px;
+}
