@@ -1,2 +1,19 @@
 .be-module {
+  display: flex;
+}
+.be-module .module {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 70vh;
+  cursor: pointer;
+  transition: all 0.3s;
+  background-color: #00000063;
+}
+
+.be-module .module .title {
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
 }
