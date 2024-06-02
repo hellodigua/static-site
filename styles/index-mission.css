@@ -1,0 +1,30 @@
+.be-mission {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 60%;
+  margin: 100px auto;
+}
+
+.be-mission .title {
+  font-weight: 500;
+  font-size: 50px;
+  color: #000;
+  line-height: 1;
+}
+
+.be-mission .highlight {
+  color: #d14d3b;
+  margin-left: 20px;
+}
+
+.be-mission .badge {
+  color: #898989;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.be-mission .description {
+  text-align: center;
+}
