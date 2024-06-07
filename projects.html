@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>项目 - 艾毅管理基金会</title>
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/about-article.css" />
+    <link rel="stylesheet" href="./styles/about-reports.css" />
+    <style>
+      .be-projects {
+        max-width: 1280px;
+        margin: 20px auto;
+      }
+      .be-projects .category {
+        display: flex;
+        align-items: center;
+        margin-bottom: 18px;
+      }
+      .be-projects .category .title {
+        color: #454545;
+        font-size: 20px;
+        margin-right: 16px;
+      }
+      .be-projects .category a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 400;
+        font-size: 16px;
+        color: #454545;
+        margin-right: 16px;
+        padding: 8px 16px;
+        border: 1px solid #f9f9f9;
+        background: #fff;
+        border-radius: 32px;
+        text-decoration: none;
+        min-width: 130px;
+      }
+      .be-projects .category a.active {
+        color: #940000;
+        border-color: #940000;
+      }
+
+      .be-projects .list .item {
+        background: #fff;
+        border-radius: 8px;
+        margin-bottom: 16px;
+        padding: 20px 38px;
+        cursor: pointer;
+        transition: all 0.3s;
+      }
+      .be-projects .list .item:hover {
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+      }
+      .be-projects .list .item .p1 {
+        font-size: 16px;
+        color: #940000;
+        margin-bottom: 8px;
+      }
+      .be-projects .list .item .p2 {
+        font-weight: 500;
+        font-size: 24px;
+        color: #454545;
+        line-height: 28px;
+        margin-bottom: 8px;
+      }
+      .be-projects .list .item .p3 {
+        font-size: 12px;
+        color: #848484;
+        line-height: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- header、footer 复用首页模块，banner复用about的模块 -->
+    <div class="be-projects">
+      <div class="category">
+        <span class="title">Project Status:</span>
+        <a class="active" href="">All</a>
+        <a href="">On The Application</a>
+        <a href="">On Going</a>
+        <a href="">Completed</a>
+      </div>
+      <div class="list">
+        <div class="item">
+          <p class="p1">On The Application</p>
+          <p class="p2">Projects Title</p>
+          <p class="p3">DD/MM/YYYY - DD/MM/YYYY</p>
+        </div>
+        <div class="item">
+          <p class="p1">On The Application</p>
+          <p class="p2">Projects Title</p>
+          <p class="p3">DD/MM/YYYY - DD/MM/YYYY</p>
+        </div>
+        <div class="item">
+          <p class="p1">On The Application</p>
+          <p class="p2">Projects Title</p>
+          <p class="p3">DD/MM/YYYY - DD/MM/YYYY</p>
+        </div>
+        <div class="item">
+          <p class="p1">On The Application</p>
+          <p class="p2">Projects Title</p>
+          <p class="p3">DD/MM/YYYY - DD/MM/YYYY</p>
+        </div>
+        <div class="item">
+          <p class="p1">On The Application</p>
+          <p class="p2">Projects Title</p>
+          <p class="p3">DD/MM/YYYY - DD/MM/YYYY</p>
+        </div>
+      </div>
+      <!-- 列表分页器不知道有没有现成的，写上去以后我来改样式，能达成设计稿的功能最好，如果达不成就功能尽可能像吧 -->
+    </div>
+  </body>
+</html>

@@ -39,19 +39,27 @@
 .be-header .right .nav .item {
   cursor: pointer;
   margin-left: 20px;
+  color: #fff;
+  transition: all 0.3s;
+}
+
+.be-header .right .nav .item a {
+  cursor: pointer;
   text-decoration: none;
   color: #fff;
-  opacity: 0.5;
+  opacity: 0.6;
   white-space: nowrap;
   transition: all 0.3s;
 }
 
-.be-header .right .nav .item:hover {
+.be-header .right .nav .item:hover,
+.be-header .right .nav .item:hover a {
   border-bottom: 2px solid #fff;
   opacity: 1;
 }
 
-.be-header .right .nav .item.active {
+.be-header .right .nav .item.active,
+.be-header .right .nav .item.active a {
   opacity: 1;
   border-bottom: 2px solid #fff;
 }

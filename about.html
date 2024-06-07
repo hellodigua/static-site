@@ -5,31 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>关于 - 艾毅管理基金会</title>
     <link rel="stylesheet" href="./styles/reset.css" />
-    <link rel="stylesheet" href="./styles/about-header.css" />
-    <link rel="stylesheet" href="./styles/about-article.css" />
-    <link rel="stylesheet" href="./styles/about-reports.css" />
-  </head>
-  <body>
-    <!-- banner -->
-    <div
-      class="be-banner"
-      style="
+    <style>
+      /* banner部分 */
+      .be-banner {
         height: 30vh;
         background: rgba(17, 10, 10, 0.4);
         display: flex;
         justify-content: center;
         align-items: center;
-      "
-    >
+        background-image: url(../imgs/banner2.png);
+      }
+      /* 年报跳转部分 */
+      .be-reports {
+        width: 100vw;
+        height: 200px;
+        background-color: #e1e1e1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .be-reports a {
+        color: #313131;
+        font-size: 60px;
+        font-weight: 400;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- header、footer 复用首页模块 -->
+    <!-- banner -->
+    <div class="be-banner">
       <p style="font-size: 60px; color: #fff">ABOUT US</p>
     </div>
 
-    <!-- footer -->
-    <div class="be-footer">
-      <div class="c"></div>
-      <p class="copyright">
-        Copyright © 2024 Beagle Foundation. All Rights Reserved.
-      </p>
+    <!-- article -->
+    <!-- TODO 文章详情我理解的是一个html模板容器，接入以后我找个编辑器css套上就可以了 -->
+
+    <!-- 年报跳转 -->
+    <div class="be-reports">
+      <a href="/reports.html">VIEW ANNUAL REPORTS</a>
     </div>
   </body>
 </html>
